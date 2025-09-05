@@ -1,63 +1,58 @@
 export const projects = [
-    {
-      id: 1,
-      title: "Bomboo World E-Commerce Platform",
-      description:
-        "An eco-friendly online marketplace specializing in bamboo products.",
-      image: "/projects/bomboo_world.png",
-      category: "Web Development",
-      tech: [
-        "Next JS",
-        "Tailwind CSS",
-        "CSS",
-        "Zustand",
-        "Node JS",
-        "Express JS",
-        "Mongo DB",
-      ],
-      liveLink: "https://www.bombooworld.com/",
-      longDescription:
-        "Bomboo World is an innovative e-commerce platform dedicated to promoting sustainable living through a wide range of bamboo products. The platform offers a seamless shopping experience, allowing customers to explore various categories, read insightful blogs, and stay updated with the latest eco-friendly trends. Built with a focus on performance and user engagement, the website reflects Bomboo World's commitment to environmental consciousness and quality.",
-    },
-    {
-      id: 2,
-      title: "YourLab Healthcare Platform",
-      description:
-        "A digital healthcare platform connecting patients with medical professionals.",
-      image: "/projects/yourlab.png",
-      category: "Healthcare",
-      tech: [
-        "Next JS",
-        "Tailwind CSS",
-        "CSS",
-        "Redux JS",
-        "On-page SEO",
-        "Node JS",
-        "Express JS",
-        "Mongo DB",
-      ],
-      liveLink: "https://yourlab.in/",
-      longDescription:
-        "YourLab is an innovative healthcare platform that facilitates seamless communication between patients and healthcare providers. It offers features such as online doctor consultations, appointment scheduling, medical record management, and health tracking. Built using React Native for a cross-platform experience, Firebase for secure real-time data synchronization, and Redux for efficient state management, YourLab aims to revolutionize digital healthcare services.",
-    },
-    {
-      id: 3,
-      title: "Creative Interiors E-Commerce Platform",
-      description:
-        "An online store specializing in premium interior design products.",
-      image: "/projects/creative_interior.png",
-      category: "E-Commerce",
-      tech: [
-        "Next JS",
-        "Tailwind CSS",
-        "CSS",
-        "Redux JS",
-        "Node JS",
-        "Express JS",
-        "Mongo DB",
-      ],
-      liveLink: "https://creative-interior.vercel.app/",
-      longDescription:
-        "Creative Interiors offers a curated selection of high-quality interior design products, including wallpapers, wooden flooring, and WPC wall cladding. The platform provides a seamless shopping experience with features like product categorization, detailed descriptions, and a blog section for design inspiration. Built with Next.js for server-side rendering, Tailwind CSS for modern styling, and Node.js for robust backend support.",
-    },
-  ];
+  {
+    id: 1,
+    title: "PDF Page Selector — A Utility Web App",
+    description:
+      "A lightweight PDF utility tool that enables users to select, extract, and download specific pages from a PDF file.",
+    image: "/projects/pdf_page_selector.png", // Replace with actual image path
+    category: "Web App / Utility",
+    tech: [
+      "React JS",
+      "Tailwind CSS",
+      "FileSaver.js",
+      "PDF.js",
+      "Vercel",
+    ],
+    liveLink: "https://pdf-selector1-0.vercel.app/",
+    longDescription:
+      "PDF Page Selector is a user-friendly web application designed to extract specific pages from PDF documents with precision. Users can preview their PDFs, select desired pages, and download them either individually or as a combined file. The tool also allows copying content from selected pages for quick access. It was developed to address a real-world need, with emphasis on smooth user experience, efficient file handling, and fully client-side PDF processing using libraries like PDF.js and FileSaver.js. Deployed seamlessly via Vercel for global accessibility.",
+  },
+  {
+    id: 2,
+    title: "Web Content Website — Introduction to Web Languages",
+    description:
+      "An informational website designed to help beginners understand the basics of HTML, CSS, and JavaScript.",
+    image: "/projects/web_content_website.png", // Replace with actual image path
+    category: "Web Development / Education",
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Netlify"
+    ],
+    liveLink: "https://main--singular-tiramisu-8b4ef8.netlify.app/",
+    longDescription:
+      "This educational website is tailored for users who are completely new to web development. It provides easy-to-understand explanations of core web technologies — HTML, CSS, and JavaScript. The goal is to make web language concepts accessible and engaging for absolute beginners. With a clean and responsive design, this static site allows users to explore content without any prior technical background. Deployed via Netlify, it's a great entry-level resource for curious learners."
+  },
+  {
+    id: 3,
+    title: "ChatterSparkle — Real-Time Chat Application",
+    description:
+      "A real-time chat app to connect with friends and family via shared links, supporting multiple users and live conversations.",
+    image: "/projects/chattersparkle_chat_app.png", // Update this to match your actual file
+    category: "Full Stack / Chat App",
+    tech: [
+      "React JS",
+      "Vite JS",
+      "Tailwind CSS",
+      "CSS",
+      "Node JS",
+      "Express JS",
+      "MongoDB",
+      "Socket.io"
+    ],
+    liveLink: "https://angchat-app-personal.onrender.com/",
+    longDescription:
+      "ChatterSparkle is a personal, real-time chat application that allows users to connect with friends and family by simply sharing the app's URL. Built with React (Vite) on the frontend and Node.js/Express on the backend, the app leverages Socket.io to enable live communication across multiple users simultaneously. MongoDB is used for storing user and message data securely. The interface is styled using Tailwind CSS and custom CSS, ensuring a clean and responsive design. Whether it’s one-on-one chatting or group conversations, ChatterSparkle provides a seamless and engaging experience directly from the browser."
+  },
+];
