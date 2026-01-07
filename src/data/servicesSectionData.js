@@ -1,28 +1,30 @@
-import { Layout, Code, Palette } from "lucide-react";
-
+import { Code, Palette, PenTool } from "lucide-react";
 export const services = [
     {
       id: 1,
-      title: "UI/UX Design",
-      description:
-        "Create intuitive and engaging user experiences that delight your customers and drive results.",
-      icon: <Layout className="w-8 h-8 text-white" />,
-      bgColor: "bg-black",
+      number: "01",
+      title: "Web Development",
+      description: "I use my knowledge of various programming languages such as HTML5, CSS3, SCSS, JAVASCRIPT, NODE JS, EXPRESS JS, REACT JS, NEXT JS, TAILWIND CSS, ON-PAGE OPTIMIZATION to build digital solutions for users.",
+      icon: <Code size={32} />,
+      bgColor: "bg-cyan-400",
+      textColor: "text-gray-900"
     },
     {
       id: 2,
-      title: "Web Development",
-      description:
-        "Build fast, responsive, and scalable web applications using modern technologies.",
-      icon: <Code className="w-8 h-8 text-white" />,
-      bgColor: "bg-black",
+      number: "02",
+      title: "UI Design",
+      description: "Crafting user-centric digital experiences that seamlessly blend aesthetics and functionality. Expert in user-centered design and responsive interfaces.",
+      icon: <Palette size={32} />,
+      bgColor: "bg-gray-700",
+      textColor: "text-white"
     },
     {
       id: 3,
-      title: "Brand Design",
-      description:
-        "Develop cohesive brand identities that communicate your values and connect with your audience.",
-      icon: <Palette className="w-8 h-8 text-white" />,
-      bgColor: "bg-black",
-    },
+      number: "03",
+      title: "Content Writing",
+      description: "Weaving impactful narratives and delivering engaging content that resonates with readers. Skillfully combining creativity with research to create compelling pieces.",
+      icon: <PenTool size={32} />,
+      bgColor: "bg-gray-700",
+      textColor: "text-white"
+    }
   ];

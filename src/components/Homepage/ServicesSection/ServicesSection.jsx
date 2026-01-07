@@ -8,7 +8,7 @@ export const ServicesSection = () => {
   return (
     <section className="py-20" id="services">
       <div className="max-w-7xl mx-auto px-6">
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -26,7 +26,7 @@ export const ServicesSection = () => {
             Providing comprehensive design and development solutions that bring
             your vision to life
           </p>
-        </motion.div>
+        </motion.div> */}
 
         {/* Service Cards */}
         <ServiceCards services={services}/>
