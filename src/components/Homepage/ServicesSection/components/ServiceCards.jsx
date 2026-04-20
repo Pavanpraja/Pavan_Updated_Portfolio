@@ -24,7 +24,7 @@ const ServiceCards = ({ services }) => {
               onMouseLeave={() => setHoveredCard(null)}
               className={`
                 relative rounded-2xl p-8 transition-all duration-500 cursor-pointer overflow-hidden
-                ${service.bgColor === 'bg-cyan-400' ? 'bg-cyan-400' : 'bg-gray-800'}
+                ${service.bgColor === 'bg-cyan-400' ? 'bg-cyan-400' : 'dark:bg-gray-800'}
                 ${hoveredCard === service.id ? 'transform -translate-y-3 scale-105' : ''}
               `}
               style={{
