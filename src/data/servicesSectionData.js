@@ -7,7 +7,7 @@ export const services = [
       description: "I use my knowledge of various programming languages such as HTML5, CSS3, SCSS, JAVASCRIPT, NODE JS, EXPRESS JS, REACT JS, NEXT JS, TAILWIND CSS, ON-PAGE OPTIMIZATION to build digital solutions for users.",
       icon: <Code size={32} />,
       bgColor: "bg-cyan-400",
-      textColor: "text-gray-900"
+      textColor: "text-gray-700"
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ export const services = [
       description: "Crafting user-centric digital experiences that seamlessly blend aesthetics and functionality. Expert in user-centered design and responsive interfaces.",
       icon: <Palette size={32} />,
       bgColor: "bg-gray-700",
-      textColor: "text-white"
+      textColor: "text-gray-400"
     },
     {
       id: 3,
@@ -25,6 +25,6 @@ export const services = [
       description: "Weaving impactful narratives and delivering engaging content that resonates with readers. Skillfully combining creativity with research to create compelling pieces.",
       icon: <PenTool size={32} />,
       bgColor: "bg-gray-700",
-      textColor: "text-white"
+      textColor: "text-gray-400"
     }
   ];
